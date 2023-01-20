@@ -7,7 +7,7 @@ import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 
 export const Home = () => {
-	const [postsPerPage] = useState(10);
+	const [postsPerPage] = useState(2);
 	const [page, setPage] = useState(0);
 	const [posts, setPosts] = useState([]);
 	const [allPosts, setAllPosts] = useState([]);
